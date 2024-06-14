@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Voice Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF Voice Search</h1>
+        <input type="file" id="pdfInput" accept="application/pdf">
+        <button id="showPdf">Show PDF</button>
+        <button id="voiceSearch">Search with Voice</button>
+        <div id="keywordDisplay" style="display:none; margin-top: 20px; font-weight: bold;"></div>
+        <div id="pdfViewer" style="margin-top: 20px;"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
